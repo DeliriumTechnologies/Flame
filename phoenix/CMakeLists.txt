@@ -10,10 +10,10 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 COMPONENTS Widgets Gui Core OpenGLWidgets REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Gui Core OpenGL REQUIRED)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(phoenix main.cpp mainwindow.h mainwindow.cpp)
 
-target_link_libraries(phoenix Qt6::Widgets Qt6::OpenGLWidgets Qt6::Core Qt6::Gui)
+target_link_libraries(phoenix Qt5::Widgets Qt5::OpenGL Qt5::Core Qt5::Gui)
