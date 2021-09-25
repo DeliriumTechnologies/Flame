@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.16)
 
 project("Phoenix3D" VERSION 1.0.0 LANGUAGES CXX)
 
