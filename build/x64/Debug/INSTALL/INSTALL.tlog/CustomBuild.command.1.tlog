@@ -1,0 +1,10 @@
+^Q:\PHOENIX3D\BUILD\CMAKEFILES\4BF54A9AE55C3DDD83C7DF672A36EF05\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
