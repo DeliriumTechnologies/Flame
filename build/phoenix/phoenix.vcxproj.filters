@@ -10,6 +10,12 @@
     <ClCompile Include="Q:\Phoenix3D\phoenix\mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Q:\Phoenix3D\phoenix\viewport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Q:\Phoenix3D\build\phoenix\qrc_res.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Q:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -24,8 +30,12 @@
     <ClInclude Include="Q:\Phoenix3D\phoenix\mainwindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Q:\Phoenix3D\phoenix\viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="Q:\Phoenix3D\phoenix\res.qrc" />
     <CustomBuild Include="Q:\Phoenix3D\phoenix\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>

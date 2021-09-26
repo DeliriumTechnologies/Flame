@@ -10,10 +10,14 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5 COMPONENTS Widgets Gui Core OpenGL REQUIRED)
+find_package(Qt6 COMPONENTS Widgets Gui Core OpenGLWidgets Qml Quick REQUIRED)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 
-add_executable(phoenix main.cpp mainwindow.h mainwindow.cpp viewport.h viewport.cpp)
+set (SOURCES main.cpp mainwindow.h mainwindow.cpp viewport.h viewport.cpp)
 
-target_link_libraries(phoenix Qt5::Widgets Qt5::OpenGL Qt5::Core Qt5::Gui)
+qt6_add_resources(SOURCES res.qrc)
+
+add_executable(phoenix ${SOURCES})
+
+target_link_libraries(phoenix PRIVATE Qt6::Widgets Qt6::OpenGLWidgets Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick)

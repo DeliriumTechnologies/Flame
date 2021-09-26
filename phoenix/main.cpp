@@ -13,6 +13,8 @@ int main(int argc, char* argv[])
 
     MainWindow window(&root);
 
+    window.setStyleSheet("QMainWindow { background-color: #3d3d3d }");
+
     window.show();
 
     return app.exec();
