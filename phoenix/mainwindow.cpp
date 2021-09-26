@@ -6,7 +6,7 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
     this->setWindowState(Qt::WindowState::WindowMaximized);
     this->setBaseSize(1280, 720);
 
-    this->gridLayout = new QGridLayout(this);
+    this->m_gridLayout = new QGridLayout(this);
 
-    this->setLayout(this->gridLayout);
+    this->setLayout(this->m_gridLayout);
 }

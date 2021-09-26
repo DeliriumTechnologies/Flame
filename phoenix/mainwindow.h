@@ -7,5 +7,5 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget* parent);
 private:
-    QGridLayout* gridLayout;
+    QGridLayout* m_gridLayout;
 };

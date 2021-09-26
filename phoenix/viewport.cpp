@@ -1,1 +1,6 @@
 #include "viewport.h"
+
+Viewport::Viewport(QWidget* parent) : QOpenGLWidget(parent)
+{
+    this->m_shadingMode = ViewportShadingMode::VSM_DEFAULT;
+}
