@@ -13,11 +13,18 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt6 COMPONENTS Widgets Gui Core OpenGLWidgets Qml Quick REQUIRED)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
+include_directories(${CMAKE_SOURCE_DIR}/libgui)
 
-set (SOURCES main.cpp mainwindow.h mainwindow.cpp viewport.h viewport.cpp)
+if (${PLATFORM} MATCHES "win")
+    link_directories(${CMAKE_SOURCE_DIR}/${PLATFORM})
+endif()
 
-qt6_add_resources(SOURCES res.qrc)
+if (NOT ${PLATFORM} MATCHES "win")
+    link_directories(${CMAKE_SOURCE_DIR}/lib)
+endif()
+
+set (SOURCES main.cpp)
 
 add_executable(phoenix ${SOURCES})
 
-target_link_libraries(phoenix PRIVATE Qt6::Widgets Qt6::OpenGLWidgets Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick)
+target_link_libraries(phoenix PRIVATE Qt6::Widgets Qt6::OpenGLWidgets Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick libgui)

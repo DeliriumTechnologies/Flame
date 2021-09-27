@@ -24,8 +24,14 @@ if (UNIX AND NOT APPLE)
     set (PLATFORM "x11")
 endif()
 
-add_subdirectory("phoenix")
-
 set (install_dest ${CMAKE_SOURCE_DIR}/${PLATFORM})
+
+add_subdirectory("libgui")
+
+install (TARGETS libgui DESTINATION ${install_dest})
+
+install (TARGETS libgui_s DESTINATION ${CMAKE_SOURCE_DIR}/lib)
+
+add_subdirectory("phoenix")
 
 install (TARGETS phoenix DESTINATION ${install_dest})

@@ -170,6 +170,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="Q:\Phoenix3D\build\libgui\libgui.vcxproj">
+      <Project>{98531A86-7956-3FC2-9758-51A76CC99988}</Project>
+      <Name>libgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Phoenix3D\build\libgui\libgui_s.vcxproj">
+      <Project>{9BD8C734-CAF0-3094-96E6-367E9ABF81BF}</Project>
+      <Name>libgui_s</Name>
+    </ProjectReference>
     <ProjectReference Include="Q:\Phoenix3D\build\phoenix\phoenix.vcxproj">
       <Project>{A3661305-DFA6-3DA4-81B3-22E2577D651A}</Project>
       <Name>phoenix</Name>
