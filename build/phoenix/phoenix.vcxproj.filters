@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Q:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="L:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Q:\Phoenix3D\phoenix\main.cpp">
+    <ClCompile Include="L:\Phoenix3D\phoenix\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Q:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="L:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Q:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="L:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_MinSizeRel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Q:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="L:\Phoenix3D\build\phoenix\phoenix_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="Q:\Phoenix3D\phoenix\CMakeLists.txt" />
+    <CustomBuild Include="L:\Phoenix3D\phoenix\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{16593E6D-88E6-3563-9A11-825BEC24FCDA}</UniqueIdentifier>
+      <UniqueIdentifier>{F3F3E7AB-A325-3EE2-B96B-26F1411BFB43}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

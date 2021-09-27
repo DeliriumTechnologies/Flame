@@ -1,6 +1,6 @@
-^Q:\PHOENIX3D\CMAKELISTS.TXT
+^L:\PHOENIX3D\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Phoenix3D -BQ:/Phoenix3D/build --check-stamp-file Q:/Phoenix3D/build/CMakeFiles/generate.stamp
+C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-file L:/Phoenix3D/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

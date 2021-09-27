@@ -2,16 +2,16 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>Q:\Phoenix3D\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>L:\Phoenix3D\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>Q:\Phoenix3D\build\libgui\Debug\libgui.dll</FullPath>
+      <FullPath>L:\Phoenix3D\build\libgui\Debug\libgui.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>Q:\Phoenix3D\build\phoenix\Debug\phoenix.exe</FullPath>
+      <FullPath>L:\Phoenix3D\build\phoenix\Debug\phoenix.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>Q:\Phoenix3D\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>L:\Phoenix3D\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,6 +1,6 @@
-^Q:\PHOENIX3D\LIBGUI\RES.QRC
+^L:\PHOENIX3D\LIBGUI\RES.QRC
 setlocal
-Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe --name res --output Q:/Phoenix3D/build/libgui/qrc_res.cpp Q:/Phoenix3D/libgui/res.qrc
+D:\Qt\5.12.11\msvc2017_64\bin\rcc.exe --name res --output L:/Phoenix3D/build/libgui/qrc_res.cpp L:/Phoenix3D/libgui/res.qrc
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -8,9 +8,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^Q:\PHOENIX3D\LIBGUI\CMAKELISTS.TXT
+^L:\PHOENIX3D\LIBGUI\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Phoenix3D -BQ:/Phoenix3D/build --check-stamp-file Q:/Phoenix3D/build/libgui/CMakeFiles/generate.stamp
+C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-file L:/Phoenix3D/build/libgui/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
