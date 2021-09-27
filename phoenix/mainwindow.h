@@ -1,8 +1,10 @@
+#include <iostream>
 #include <QMainWindow>
-#include <QQmlEngine>
-#include <QQmlComponent>
+#include <QGridLayout>
 #include <QGraphicsDropShadowEffect>
 #include <QMenuBar>
+#include <QFile>
+#include <QTextStream>
 #include <Qt>
 
 class MainWindow : public QMainWindow
@@ -11,7 +13,6 @@ public:
     MainWindow(QWidget* parent);
     ~MainWindow();
 private:
-    QQmlEngine* m_engine;
-    QQmlComponent* m_baseComponent;
+    QGridLayout* m_layout;
     QMenuBar* m_menuBar;
 };

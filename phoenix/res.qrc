@@ -1,5 +1,5 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource>
-    <file>res/qml/defaultLayout.qml</file>
+    <file>res/qts/menuBar.qts</file>
 </qresource>
 </RCC>

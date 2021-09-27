@@ -6,14 +6,9 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
     this->setWindowState(Qt::WindowState::WindowMaximized);
     this->setBaseSize(1280, 720);
 
-    this->m_engine = new QQmlEngine(this);
-    this->m_baseComponent = new QQmlComponent(this->m_engine, QUrl("qrc:/res/qml/defaultLayout.qml"), this);
+    this->m_layout = new QGridLayout(this);
 
-    QWidget* widget = qobject_cast<QWidget*>(this->m_baseComponent->create());
-
-    qDebug() << qPrintable(this->m_baseComponent->errorString());
-
-    this->setCentralWidget(widget);
+    this->setLayout(this->m_layout);
 
     this->m_menuBar = new QMenuBar(this);
 
@@ -31,8 +26,29 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
     this->m_menuBar->addMenu(renderMenu);
     this->m_menuBar->addMenu(helpMenu);
 
-    this->m_menuBar->setStyleSheet("QMenuBar { min-height: 30px; background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #5e5e5e, stop: 1 #3d3d3d)  } QMenuBar::item { padding: 0px 10px; background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #5e5e5e, stop: 1 #3d3d3d); color: #efefef } QMenuBar::item:pressed { background-color: #5b71a0 }");
-    
+    QFile menuBarStyleSheet(":/res/qts/menuBar.qts");
+    if (menuBarStyleSheet.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
+
+        QTextStream in(&menuBarStyleSheet);
+
+        QString data = "";
+
+        while (!in.atEnd())
+        {
+            QString line = in.readLine();
+
+            data.append(line);
+            data.append(" ");
+        }
+
+        this->m_menuBar->setStyleSheet(data);
+    }
+    else 
+    {
+        std::cerr << "Failed to load stylesheet at qrc:/res/qts/menuBar.qts!" << std::endl;
+    }
+
     QGraphicsDropShadowEffect* shadow = new QGraphicsDropShadowEffect(this->m_menuBar);
 
     shadow->setBlurRadius(10.0);
@@ -48,7 +64,6 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
 MainWindow::~MainWindow()
 {
     delete (this->m_menuBar);
-    delete (this->m_baseComponent);
-    delete (this->m_engine);
+    delete (this->m_layout);
     QMainWindow::~QMainWindow();
 }
