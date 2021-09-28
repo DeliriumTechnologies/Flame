@@ -7,7 +7,8 @@ enum EXPORTED ViewportShadingMode
     VSM_WIRE,
     VSM_DEFAULT,
     VSM_LOOKDEV,
-    VSM_RENDERED
+    VSM_RENDERED,
+    VSM_MATCAPPED,
 };
 
 class EXPORTED Viewport : public QOpenGLWidget
