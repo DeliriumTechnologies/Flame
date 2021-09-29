@@ -10,7 +10,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5 COMPONENTS Widgets Gui Core OpenGL Qml Quick REQUIRED)
+find_package(Qt6 COMPONENTS Widgets Gui Core Qml Quick REQUIRED)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR})
 include_directories(${CMAKE_SOURCE_DIR}/libgui)
@@ -27,4 +27,4 @@ set (SOURCES main.cpp)
 
 add_executable(flame ${SOURCES})
 
-target_link_libraries(flame PRIVATE Qt6::Widgets Qt6::OpenGLWidgets Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick libgui)
+target_link_libraries(flame PRIVATE Qt6::Widgets Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick libgui libflameray-opencl)

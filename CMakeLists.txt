@@ -32,6 +32,12 @@ install (TARGETS libgui DESTINATION ${install_dest})
 
 install (TARGETS libgui_s DESTINATION ${CMAKE_SOURCE_DIR}/lib)
 
+add_subdirectory("libflameray-opencl")
+
+install (TARGETS libflameray-opencl DESTINATION ${install_dest})
+
+install (TARGETS libflameray-opencl_s DESTINATION ${CMAKE_SOURCE_DIR}/lib)
+
 add_subdirectory("flame")
 
 install (TARGETS flame DESTINATION ${install_dest})
