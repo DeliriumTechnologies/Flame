@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    std::cout << "Phoenix3D 1.0 by Jonas Korte." << std::endl;
+    std::cout << "Flame sersion 1.0 by Jonas Korte." << std::endl;
 
     QApplication app(argc, argv);
     app.setOverrideCursor(QCursor(QPixmap(":/res/img/cursor.png")));

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project("Phoenix3D" VERSION 1.0.0 LANGUAGES CXX)
+project("Flame" VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -32,6 +32,6 @@ install (TARGETS libgui DESTINATION ${install_dest})
 
 install (TARGETS libgui_s DESTINATION ${CMAKE_SOURCE_DIR}/lib)
 
-add_subdirectory("phoenix")
+add_subdirectory("flame")
 
-install (TARGETS phoenix DESTINATION ${install_dest})
+install (TARGETS flame DESTINATION ${install_dest})

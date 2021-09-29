@@ -2,7 +2,7 @@
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 {
-    this->setWindowTitle("Phoenix3D 1.0");
+    this->setWindowTitle("Flame");
     this->setWindowState(Qt::WindowState::WindowMaximized);
     this->setBaseSize(1920, 1080);
     this->setCursor(QCursor(QPixmap(":/res/img/cursor.png")));
