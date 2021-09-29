@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
     this->setWindowState(Qt::WindowState::WindowMaximized);
     this->setBaseSize(1920, 1080);
     this->setCursor(QCursor(QPixmap(":/res/img/cursor.png")));
+    this->setWindowIcon(QIcon(":/res/imglogo.jpg"));
     this->setObjectName("_main_window");
 
     this->m_layout = new QGridLayout(this);
