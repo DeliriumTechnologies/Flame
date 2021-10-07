@@ -295,7 +295,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.jpg;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.png;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Q:\Flame\build\libgui\qrc_res.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_res.cpp</Message>
@@ -308,7 +308,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.jpg;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.png;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Q:\Flame\build\libgui\qrc_res.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_res.cpp</Message>
@@ -321,7 +321,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.jpg;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.png;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Q:\Flame\build\libgui\qrc_res.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_res.cpp</Message>
@@ -334,7 +334,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.jpg;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Q:\Flame\libgui\res\qts\menuBar.qts;Q:\Flame\libgui\res\img\cursor.png;Q:\Flame\libgui\res\img\logo.png;Q:\Flame\build\libgui\res.qrc.depends;Q:\Qt\6.1.3\msvc2019_64\.\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Q:\Flame\build\libgui\qrc_res.cpp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>

@@ -2,6 +2,6 @@
 <qresource>
     <file>res/qts/menuBar.qts</file>
     <file>res/img/cursor.png</file>
-    <file>res/img/logo.jpg</file>
+    <file>res/img/logo.png</file>
 </qresource>
 </RCC>
