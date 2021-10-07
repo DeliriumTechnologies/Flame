@@ -10,11 +10,11 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/thirdparty/OpenCL-SDK)
+add_subdirectory("thirdparty/OpenCL-SDK")
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_SOURCE_DIR}/thirdparty/OpenCL-SDK/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/OpenCL-SDK/include)
 
-set (SOURCES api.h)
+set (SOURCES api.h flameray.h flameray.cpp)
 
 install (TARGETS OpenCL DESTINATION ${CMAKE_SOURCE_DIR}/lib)
 install (TARGETS OpenCL DESTINATION ${install_dest})
@@ -25,6 +25,9 @@ add_library(libflameray-opencl SHARED ${SOURCES})
 
 add_library(libflameray-opencl_s STATIC ${SOURCES})
 set_target_properties(libflameray-opencl_s PROPERTIES OUTPUT_NAME libflameray-opencl)
+
+set_target_properties(libflameray-opencl PROPERTIES LINKER_LANGUAGE CXX)
+set_target_properties(libflameray-opencl_s PROPERTIES LINKER_LANGUAGE CXX)
 
 if (${PLATFORM} MATCHES "win")
 target_compile_definitions(libflameray-opencl PRIVATE WIN_EXPORT)

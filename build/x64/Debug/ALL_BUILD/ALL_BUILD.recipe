@@ -2,16 +2,31 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>L:\Phoenix3D\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>Q:\Flame\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>L:\Phoenix3D\build\libgui\Debug\libgui.dll</FullPath>
+      <FullPath>Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\external\OpenCL-ICD-Loader\Debug\OpenCL.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>L:\Phoenix3D\build\phoenix\Debug\phoenix.exe</FullPath>
+      <FullPath>Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\samples\core\copybuffer\Debug\copybuffer.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>L:\Phoenix3D\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\samples\core\copybufferkernel\Debug\copybufferkernel.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\samples\core\enumopencl\Debug\enumopencl.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Q:\Flame\build\libflameray-opencl\Debug\libflameray-opencl.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Q:\Flame\build\libgui\Debug\libgui.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Q:\Flame\build\flame\Debug\flame.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>Q:\Flame\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

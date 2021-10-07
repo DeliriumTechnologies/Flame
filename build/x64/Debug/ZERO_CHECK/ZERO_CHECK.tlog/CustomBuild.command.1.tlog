@@ -1,6 +1,6 @@
-^L:\PHOENIX3D\BUILD\CMAKEFILES\04BDA34E4119B12F740009A7F1F9AB7A\GENERATE.STAMP.RULE
+^Q:\FLAME\BUILD\CMAKEFILES\C7F8C5C363353312B36F85C8AEDED9DE\GENERATE.STAMP.RULE
 setlocal
-C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file L:/Phoenix3D/build/Phoenix3D.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Flame -BQ:/Flame/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file Q:/Flame/build/Flame.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

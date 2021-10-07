@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="L:\Phoenix3D\build\CMakeFiles\04bda34e4119b12f740009a7f1f9ab7a\INSTALL_force.rule">
+    <CustomBuild Include="Q:\Flame\build\CMakeFiles\c7f8c5c363353312b36f85c8aeded9de\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DFC95C21-8DEF-3627-8050-68DA05435C73}</UniqueIdentifier>
+      <UniqueIdentifier>{6342B3CC-ABD0-38BF-97E2-05C5E7A961F9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

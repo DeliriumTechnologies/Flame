@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="L:\Phoenix3D\build\libgui\libgui_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="Q:\Flame\build\libgui\libgui_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="L:\Phoenix3D\libgui\mainwindow.cpp">
+    <ClCompile Include="Q:\Flame\libgui\mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="L:\Phoenix3D\libgui\viewport.cpp">
+    <ClCompile Include="Q:\Flame\libgui\viewport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="L:\Phoenix3D\build\libgui\qrc_res.cpp">
+    <ClCompile Include="Q:\Flame\build\libgui\qrc_res.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="L:\Phoenix3D\build\libgui\libgui_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="Q:\Flame\build\libgui\libgui_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="L:\Phoenix3D\build\libgui\libgui_autogen\mocs_compilation_MinSizeRel.cpp">
+    <ClCompile Include="Q:\Flame\build\libgui\libgui_autogen\mocs_compilation_MinSizeRel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="L:\Phoenix3D\build\libgui\libgui_autogen\mocs_compilation_RelWithDebInfo.cpp">
+    <ClCompile Include="Q:\Flame\build\libgui\libgui_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="L:\Phoenix3D\libgui\mainwindow.h">
+    <ClInclude Include="Q:\Flame\libgui\mainwindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="L:\Phoenix3D\libgui\viewport.h">
+    <ClInclude Include="Q:\Flame\libgui\viewport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="L:\Phoenix3D\libgui\api.h">
+    <ClInclude Include="Q:\Flame\libgui\api.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="L:\Phoenix3D\libgui\res.qrc" />
-    <CustomBuild Include="L:\Phoenix3D\libgui\CMakeLists.txt" />
+    <CustomBuild Include="Q:\Flame\libgui\res.qrc" />
+    <CustomBuild Include="Q:\Flame\libgui\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{19C4CA9C-8D6E-3BC8-A33C-97E3B861D525}</UniqueIdentifier>
+      <UniqueIdentifier>{FCDCC012-9DE4-3121-A2E7-21C39259D467}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F3F3E7AB-A325-3EE2-B96B-26F1411BFB43}</UniqueIdentifier>
+      <UniqueIdentifier>{62583C2D-4847-320A-A18A-210A5640FA66}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

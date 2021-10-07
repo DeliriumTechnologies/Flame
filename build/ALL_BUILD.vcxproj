@@ -22,8 +22,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E4624AA2-5941-33ED-9D53-98E7FECE55B9}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{B61C37A5-A724-3224-8B0A-FAF1DD2AA308}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -105,11 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="L:\Phoenix3D\CMakeLists.txt">
+    <CustomBuild Include="Q:\Flame\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule L:/Phoenix3D/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule Q:/Flame/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-file L:/Phoenix3D/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Flame -BQ:/Flame/build --check-stamp-file Q:/Flame/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeCXXCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeRCCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">L:\Phoenix3D\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Q:\Flame\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule L:/Phoenix3D/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule Q:/Flame/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-file L:/Phoenix3D/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Flame -BQ:/Flame/build --check-stamp-file Q:/Flame/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,12 +130,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeCXXCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeRCCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">L:\Phoenix3D\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Q:\Flame\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule L:/Phoenix3D/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule Q:/Flame/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-file L:/Phoenix3D/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Flame -BQ:/Flame/build --check-stamp-file Q:/Flame/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +143,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeCXXCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeRCCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">L:\Phoenix3D\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Q:\Flame\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule L:/Phoenix3D/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule Q:/Flame/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\CMake\bin\cmake.exe -SL:/Phoenix3D -BL:/Phoenix3D/build --check-stamp-file L:/Phoenix3D/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SQ:/Flame -BQ:/Flame/build --check-stamp-file Q:/Flame/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,31 +156,55 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeCXXCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeRCCompiler.cmake;L:\Phoenix3D\build\CMakeFiles\3.21.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">L:\Phoenix3D\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeCXXCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeRCCompiler.cmake;Q:\Flame\build\CMakeFiles\3.20.0\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Q:\Flame\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="L:\Phoenix3D\build\ZERO_CHECK.vcxproj">
-      <Project>{8F73F4B6-8D18-3BC8-AAE3-0BBBF94A3B67}</Project>
+    <ProjectReference Include="Q:\Flame\build\ZERO_CHECK.vcxproj">
+      <Project>{CA833540-147E-3493-BD32-87896110A0DF}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="L:\Phoenix3D\build\libgui\libgui.vcxproj">
-      <Project>{6F12BE27-D7C4-34C5-9581-3AC718F65EFC}</Project>
+    <ProjectReference Include="Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\external\OpenCL-ICD-Loader\OpenCL.vcxproj">
+      <Project>{24982A9B-C925-3433-BE05-578F5BF99170}</Project>
+      <Name>OpenCL</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\samples\core\copybuffer\copybuffer.vcxproj">
+      <Project>{A32E1EE1-1CBD-37F7-AFBF-77F90E0A672E}</Project>
+      <Name>copybuffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\samples\core\copybufferkernel\copybufferkernel.vcxproj">
+      <Project>{C1D765A9-B413-36D4-B7D8-0F52124B7FE3}</Project>
+      <Name>copybufferkernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\libflameray-opencl\thirdparty\OpenCL-SDK\samples\core\enumopencl\enumopencl.vcxproj">
+      <Project>{D2EC0721-A385-3E9E-8A8C-88825EC7D846}</Project>
+      <Name>enumopencl</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\flame\flame.vcxproj">
+      <Project>{D22B2CE7-4D1A-3573-BF23-19968A58B550}</Project>
+      <Name>flame</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\libflameray-opencl\libflameray-opencl.vcxproj">
+      <Project>{F0C408DD-2A3D-3E1D-A598-802808FE2FE0}</Project>
+      <Name>libflameray-opencl</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\libflameray-opencl\libflameray-opencl_s.vcxproj">
+      <Project>{07A343D3-7F8B-3BC2-B84B-024BB5E0643C}</Project>
+      <Name>libflameray-opencl_s</Name>
+    </ProjectReference>
+    <ProjectReference Include="Q:\Flame\build\libgui\libgui.vcxproj">
+      <Project>{A6AD1C1F-75D0-35C0-AC2A-FD0DD010681E}</Project>
       <Name>libgui</Name>
     </ProjectReference>
-    <ProjectReference Include="L:\Phoenix3D\build\libgui\libgui_s.vcxproj">
-      <Project>{33BDEA2B-62DB-3CB1-9BA1-73A726D179CC}</Project>
+    <ProjectReference Include="Q:\Flame\build\libgui\libgui_s.vcxproj">
+      <Project>{8D24B4C5-B368-32FF-9F97-EC13747D39F2}</Project>
       <Name>libgui_s</Name>
-    </ProjectReference>
-    <ProjectReference Include="L:\Phoenix3D\build\phoenix\phoenix.vcxproj">
-      <Project>{A393553C-3106-33AF-9097-3BB152895E9C}</Project>
-      <Name>phoenix</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

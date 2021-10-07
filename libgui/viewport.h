@@ -1,6 +1,6 @@
 #pragma once
 #include "api.h"
-#include <QOpenGLWidget>
+#include <QGraphicsView>
 
 enum EXPORTED ViewportShadingMode 
 {
@@ -11,7 +11,7 @@ enum EXPORTED ViewportShadingMode
     VSM_MATCAPPED,
 };
 
-class EXPORTED Viewport : public QOpenGLWidget
+class EXPORTED Viewport : public QGraphicsView
 {
 public:
     Viewport(QWidget *parent);
